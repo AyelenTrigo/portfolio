@@ -1,0 +1,28 @@
+.descripcion{
+    margin: 20px;
+    max-width: 800px;
+    height: auto;
+    background-color: var(--react--2);
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 20px;
+}
+.descripcion_titulo{
+    margin: 10px 0;
+}
+
+.descripcion p{
+    justify-content: center;
+}
+
+@media (max-width: 768px){
+    .descripcion p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 425px){
+    .descripcion{
+        margin: 10px;
+    }
+}

@@ -1,0 +1,72 @@
+#presentacion{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 3vw;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+#presentacion p{
+    display: flex;
+    max-width: 400px;
+}
+.intro{
+    margin: 20px 20px 40px;
+    display: block;
+}
+.intro, #foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.intro h1{
+    padding: 30px 0;
+    color: var(--react--1);
+    font-size: 26px;
+    
+}
+#foto img{
+    min-width: 50px;
+    max-width: 200px;
+    height: auto;
+}
+.intro p{
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px){
+    .intro{
+        font-size: 16px;
+    }
+    .intro p{
+        font-size: 14px;
+    }
+    .intro h1{
+        text-align: left;
+        font-size: 22px;
+    }
+    #foto img{
+        margin: 30px 0;
+    }
+}
+
+
+
+@media (max-width: 425px){
+    .intro{
+        font-size: 14px;
+    }
+    .intro p{
+        font-size: 14px;
+    }
+    #foto img{
+        width: 150px;
+    }
+    .intro h1{
+        font-size: 20px;
+    }
+
+}

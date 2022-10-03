@@ -1,13 +1,55 @@
-body {
+:root{
+  --react--1:#04d6f7;
+  --react--2:#026A7A;
+  --react--3:#05D9FA;
+  --react--4:#01333B;
+  --react--5:#04C3E0;
+  --dark-blue:#112340;
+  --textos: #cdd6f7;
+  --fondo:#0a1930;
+  
+    --shadow-color: 217deg 100% 3%;
+    --shadow-elevation-low:
+      0px 0.2px 0.2px hsl(var(--shadow-color) / 0.34),
+      0px 0.3px 0.3px -1.2px hsl(var(--shadow-color) / 0.34),
+      0px 0.7px 0.8px -2.5px hsl(var(--shadow-color) / 0.34);
+    --shadow-elevation-medium:
+      0px 0.2px 0.2px hsl(var(--shadow-color) / 0.36),
+      0px 0.6px 0.7px -0.8px hsl(var(--shadow-color) / 0.36),
+      0px 1.5px 1.7px -1.7px hsl(var(--shadow-color) / 0.36),
+      0px 3.6px 4.1px -2.5px hsl(var(--shadow-color) / 0.36);
+    --shadow-elevation-high:
+      0px 0.2px 0.2px hsl(var(--shadow-color) / 0.34),
+      0px 1px 1.1px -0.4px hsl(var(--shadow-color) / 0.34),
+      0px 2px 2.3px -0.7px hsl(var(--shadow-color) / 0.34),
+      0px 3.2px 3.6px -1.1px hsl(var(--shadow-color) / 0.34),
+      -0.1px 5.1px 5.7px -1.4px hsl(var(--shadow-color) / 0.34),
+      -0.1px 8px 9px -1.8px hsl(var(--shadow-color) / 0.34),
+      -0.1px 12.2px 13.7px -2.1px hsl(var(--shadow-color) / 0.34),
+      -0.2px 17.9px 20.1px -2.5px hsl(var(--shadow-color) / 0.34);
+  }
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--textos);
+  background-color: inherit;
+  font-family: "Gordita Regular";
+}
+body{
+  margin: 0;
+  padding: 0;
+  color: var(--textos);
+  background-color: var(--fondo);
+}
+section{
+  height: calc(100vh - 50px);
+  box-sizing: border-box;
+  font-family: 'Gordita Regular';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (max-width: 768px){
+  section{
+    height: auto;
+  }
 }

@@ -1,0 +1,22 @@
+.sobreMi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 20px;
+    height: auto;
+}
+.sobreMi_titulo{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 425px){
+    .sobreMi{
+        margin: 10px;
+    }
+    .sobreMi_titulo{
+        justify-content: left;
+    }
+}
