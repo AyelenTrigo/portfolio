@@ -13,6 +13,8 @@
 
 .descripcion p{
     justify-content: center;
+    text-indent: 10px;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 768px){
@@ -24,5 +26,8 @@
 @media (max-width: 425px){
     .descripcion{
         margin: 10px;
+    }
+    .card_description {
+        font-size: 12px;
     }
 }

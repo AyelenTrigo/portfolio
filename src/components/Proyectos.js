@@ -9,6 +9,13 @@ function Proyectos() {
           <h2>Mis últimos proyectos</h2>
         </div>
         <div className="proyectos_listado">
+          <Card 
+            title="Precio Criptomonedas"
+            tools="Javascript React Axios"
+            description="Una web app para consultar el precio de las criptomonedas conectada a la API de Coingecko"
+            repo="https://github.com/AyelenTrigo/precio-criptos-con-react"
+            sitio="https://precio-criptos.web.app/"
+          />
           <Card
             title="¿Qué comemos hoy?"
             tools="HTML CSS Javascript"
@@ -39,13 +46,13 @@ function Proyectos() {
             repo="https://github.com/AyelenTrigo/landingpage_disneyplus"
             sitio="https://disneyplus-landingpage.web.app/"
           />
-          <Card 
+          {/* <Card 
             title="Clon Google Landing Page"
             tools="HTML CSS"
             description="Es un clon de la página de Google Argentina"
             repo=""
             sitio="https://reto-3-gooogle-page.web.app/"
-          />
+          /> */}
         </div>
       </section>
   );
