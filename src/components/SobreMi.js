@@ -9,9 +9,9 @@ function SobreMi() {
       <Description 
         titulo="Mis estudios"
         descripcion="En la actualidad me encuentro aprendiendo y practicando React, y reforzando mis conocimientos adquiridos en cursos particulares y en videos de YouTube. Este mismo portfolio está creado con React. Por otro lado, también estoy dando mis primeros pasos en bases de datos con Node.js y Postgres."
-        descripcion1="En diciembre de 2022 concluí la etapa #SéProgramar de 'Argentina Programa', de plan nacional de formación en programación. Estoy aguardando la inscripción para la segunda etapa #yoProgramo en el mes de marzo, aproximadamente. El mismo apunta a la formación en programación Fullstack."
+        descripcion1="En diciembre de 2022 concluí la etapa #SéProgramar de 'Argentina Programa', el plan nacional de formación en programación. Estoy aguardando la inscripción para la segunda etapa #yoProgramo en el mes de marzo, aproximadamente. El mismo apunta a la formación en programación Fullstack."
         descripcion2="En octubre de 2022 terminé el curso 'Programación desde Cero' en Egg Cooperation, una plataforma educativa online en donde, además de repasar los fundamentos de programación, puse a prueba y desarrollé habilidades blandas tales como la empatía, la comunicación y trabajo en equipo, entre otras."
-        descripcion3="Para 2023 tengo entre mis cursar la Tecnicatura Superor en Desarrollo de Software (a distancia) que imparte la 'Agencia de Aprendizaje a lo largo de la vida' del Gobierno de la Ciudad de Buenos Aires. "
+        descripcion3="Para 2023 tengo entre mis planes cursar la Tecnicatura Superor en Desarrollo de Software (a distancia) que imparte la 'Agencia de Aprendizaje a lo largo de la vida' del Gobierno de la Ciudad de Buenos Aires. "
       />
       <Description 
         titulo="Mi trabajo"
