@@ -7,21 +7,17 @@ function SobreMi() {
     <section className="sobreMi">
       <h2 className="sobreMi_titulo">Un poco sobre mi</h2>
       <Description 
-        titulo="Mis estudios"
-        descripcion="En la actualidad me encuentro aprendiendo y practicando React, y reforzando mis conocimientos adquiridos en cursos particulares y en videos de YouTube. Este mismo portfolio está creado con React. Por otro lado, también estoy dando mis primeros pasos en bases de datos con Node.js y Postgres."
-        descripcion1="En diciembre de 2022 concluí la etapa #SéProgramar de 'Argentina Programa', el plan nacional de formación en programación. Estoy aguardando la inscripción para la segunda etapa #yoProgramo en el mes de marzo, aproximadamente. El mismo apunta a la formación en programación Fullstack."
-        descripcion2="En octubre de 2022 terminé el curso 'Programación desde Cero' en Egg Cooperation, una plataforma educativa online en donde, además de repasar los fundamentos de programación, puse a prueba y desarrollé habilidades blandas tales como la empatía, la comunicación y trabajo en equipo, entre otras."
-        descripcion3="Para 2023 tengo entre mis planes cursar la Tecnicatura Superor en Desarrollo de Software (a distancia) que imparte la 'Agencia de Aprendizaje a lo largo de la vida' del Gobierno de la Ciudad de Buenos Aires. "
+        titulo="Experiencia y aprendizaje"
+        descripcion="Aunque no cuento con experiencia formal en el ámbito laboral de desarrollo web, actualmente colaboro en un proyecto de actualización de página web bajo la guía de un senior experimentado. Soy responsable del desarrollo del Front-End, trabajando en equipo y completando las tareas asignadas. Dedico 3 horas semanales a este proyecto, priorizando la calidad sobre la velocidad en cada aspecto del trabajo realizado." 
+        descripcion1="En mi trabajo actual, he tenido la oportunidad de cultivar y fortalecer habilidades esenciales más allá del ámbito técnico. He demostrado habilidades para trabajar en equipo, colaborando de manera armoniosa y contribuyendo activamente al logro de objetivos comunes. También he demostrado habilidades sólidas en la resolución de problemas, utilizando enfoques creativos y analíticos para abordar desafíos y encontrar soluciones efectivas. Por último, mi capacidad de adaptación me ha permitido enfrentar cambios y situaciones nuevas con flexibilidad y agilidad, ajustándome rápidamente a los requisitos y demandas del entorno laboral."
       />
       <Description 
-        titulo="Mi trabajo"
-        descripcion="En la actualidad y desde hace 10 años me encuentro trabajando como
-        técnica de fotogrametría dentro del Gobierno de la Ciudad de Buenos
-        Aires."
-        descripcion1="Mi trabajo consiste tanto en la fotointerpretación y
-        relevamiento de objetos catastrales, como en la generación de
-        altimetría para la proyección de curvas de nivel en el terreno.
-        En este último tiempo capacité a los nuevos ingresantes de la gerencia y me encuentro coordinando las tareas diarias el proyecto de actualización de los espacios verdes públicos de la Ciudad de Buenos Aires"
+        titulo="Enfoque y perseverancia"
+        descripcion="Soy una persona autodidacta y estoy constantemente buscando oportunidades para mejorar mis habilidades y mantenerme actualizada con las últimas tendencias y tecnologías en el desarrollo Front-End. Mi enfoque se centra en el aprendizaje continuo y la perseverancia para superar desafíos."
+      />
+      <Description 
+        titulo="Compromiso y crecimiento"
+        descripcion="A pesar de la falta de experiencia laboral formal, soy una profesional comprometida y apasionada por lo que hago. No me detengo ante los desafíos, sino que los enfrento con determinación y perseverancia. Estoy dispuesta a invertir tiempo y esfuerzo para seguir creciendo profesionalmente y convertirme en una desarrolladora Front-End altamente competente."
       />
     </section>
   );

@@ -9,10 +9,7 @@ function Intro(){
         <div className="intro">
           <h1>¡Hola, Soy Ayelén Trigo!</h1>
           <p>
-            Estudio para desarrollarme como front-end developer de forma
-            autodidaca y mediante cursos online. Mis objetivos son hacer crecer
-            mi carrera profesional y seguir instruyendome en distintas áreas de la
-            programación.
+          Soy una apasionada desarrolladora Front-End y maquetadora web. Mi objetivo es crear experiencias digitales impactantes y satisfactorias para los usuarios a través de la combinación de diseño y desarrollo.
           </p>
         </div>
         <div id="foto">
